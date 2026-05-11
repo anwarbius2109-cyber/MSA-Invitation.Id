@@ -6,9 +6,13 @@ const perHalaman = 10;
 fetch("data/katalog.json")
   .then(res => res.json())
   .then(data => {
+
     semuaData = data;
     dataAktif = data;
+
     tampilkan();
+    renderTemaPopuler(data);
+
   });
 
 function tampilkan(){
