@@ -11,7 +11,6 @@ fetch("data/katalog.json")
     dataAktif = data;
 
     tampilkan();
-    renderTemaPopuler(data);
 
   });
 
