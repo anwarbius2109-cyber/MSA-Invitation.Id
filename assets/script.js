@@ -202,3 +202,76 @@ fetch("data/porto.json")
       `;
     });
   });
+/* =========================
+   🔥 TEMA POPULER
+========================= */
+
+fetch("/data/populer.json")
+  .then(res => res.json())
+  .then(data => {
+
+    const populer = document.getElementById("temaPopuler");
+
+    if(!populer) return;
+
+    populer.innerHTML = "";
+
+    data.forEach(item => {
+
+      const pesan = `Halo kak 👋
+Saya mau pesan undangan
+
+✨ Tema: ${item.nama}
+🔗 Preview: ${item.link}`;
+
+      const linkWA = `https://wa.me/6281261233730?text=${encodeURIComponent(pesan)}`;
+
+      populer.innerHTML += `
+
+      <div class="relative">
+
+        <div class="absolute top-3 right-3 z-20
+          bg-gradient-to-r from-orange-500 to-red-500
+          text-white text-[10px] sm:text-xs
+          px-3 py-1 rounded-full
+          animate-pulse shadow-lg">
+
+          🔥 POPULER
+
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition duration-300 hover:-translate-y-2 overflow-hidden text-sm group border border-white/40 backdrop-blur">
+
+          <div class="relative group">
+
+            <img src="${item.gambar}"
+              class="w-full aspect-[3/4] sm:aspect-[4/5] object-cover transition duration-500 group-hover:scale-105">
+
+            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-2">
+
+              <a href="${item.link}" target="_blank"
+              class="bg-white/90 px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+                Preview
+              </a>
+
+              <a href="${linkWA}" target="_blank"
+              class="bg-green-500 text-white px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+                Order
+              </a>
+
+            </div>
+
+          </div>
+
+          <div class="p-3 text-center text-sm sm:text-base font-semibold">
+            ${item.nama}
+          </div>
+
+        </div>
+
+      </div>
+
+      `;
+    });
+
+  });
