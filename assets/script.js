@@ -235,9 +235,9 @@ fetch("data/porto.json")
 
     </div>
 
-    <!-- NAMA -->
+   <!-- NAMA -->
 <div class="mt-2 text-center text-xs md:text-sm font-semibold leading-tight line-clamp-2 min-h-[38px]">
-  ${item.nama}
+  ${item.nama.replace(" Of ", " Of <br>")}
 </div>
 
   </a>
