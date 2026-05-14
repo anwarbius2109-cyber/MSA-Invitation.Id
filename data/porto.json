@@ -1,13 +1,18 @@
 [
   {
+    "nama": "The Wedding Of Fernandes & Anggun",
+    "gambar": "assets/05.png",
+    "link": "https://id.sudahnikah.com/d/Fernandes-dan-Anggun?kpd=Tamu+Undangan"
+    },
+  {
     "nama": "The Wedding Of Hera & Dewi",
     "gambar": "assets/03.png",
     "link": "https://id.sudahnikah.com/d/Hera-dan-Dewi?kpd=Tamu+Undangan"
   },
   {
-    "nama": "The Wedding Of Teddy & Astrid",
-    "gambar": "assets/01.png",
-    "link": "https://id.sudahnikah.com/d/Teddy-dan-Astrid?kpd=Tamu+Undangan"
+    "nama": "The Wedding Of Rafli & Liaa",
+    "gambar": "assets/04.png",
+    "link": "https://id.sudahnikah.com/d/Rafli-dan-Liaa?kpd=Tamu+Undangan"
     },
   {
     "nama": "The Wedding Of Erni & Syarwan",
