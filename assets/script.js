@@ -60,8 +60,9 @@ fetch("data/katalog.json")
 
   tampilkan();
 
-});
+    });
 
+  });
 function tampilkan(){
   const katalog = document.getElementById("katalog");
   const nomorWA = "6281261233730";
@@ -212,6 +213,48 @@ function prevPage(){
     });
   }
 }
+    // ======================
+// BUKA SEARCH DARI URL
+// ======================
+
+window.addEventListener("load", () => {
+
+  const hash = window.location.hash;
+
+  if(hash.includes("katalog/")){
+
+    const keyword = hash.split("katalog/")[1]
+      .replace(/-/g, " ");
+
+    const searchInput = document.getElementById("search");
+
+    if(searchInput){
+
+      searchInput.value = keyword;
+
+      const kataCari = keyword.toLowerCase().split(" ");
+
+      dataAktif = semuaData.filter(item => {
+
+        const gabung = `
+          ${item.nama || ""}
+          ${item.kategori || ""}
+          ${(item.keyword || []).join(" ")}
+        `.toLowerCase();
+
+        return kataCari.some(kata =>
+          gabung.includes(kata)
+        );
+
+      });
+
+      tampilkan();
+
+    }
+
+  }
+
+});
 fetch("data/porto.json")
   .then(res => res.json())
   .then(data => {
