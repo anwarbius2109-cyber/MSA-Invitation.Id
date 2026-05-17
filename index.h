@@ -489,6 +489,10 @@
     Ulang Tahun
   </button>
 
+  <button onclick="filterKategori('party&dinner')" class="btn-filter">
+    Party & Dinner
+  </button>
+
 </div>
 
 <!-- KATALOG -->
@@ -817,7 +821,7 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
       Hasil Undangan Digital Yang Kami Buat Dengan Sepenuh Hati
     </p>
       
-  <div id="portoList" class="grid md:grid-cols-3 gap-6"></div>
+  <div id="portoList" class="porto-grid"></div>
 
 </section>
   <!-- RESELLER -->
@@ -885,7 +889,7 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
             </div>
 
             <h3 class="text-xl font-semibold mb-2">
-              Proses Cepat
+              Proses Cepat 1x24 Jam
             </h3>
 
             <p class="text-gray-300 text-sm leading-relaxed">
@@ -902,7 +906,7 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
             </div>
 
             <h3 class="text-xl font-semibold mb-2">
-              500+ Tema Premium
+              150+ Tema Premium
             </h3>
 
             <p class="text-gray-300 text-sm leading-relaxed">
