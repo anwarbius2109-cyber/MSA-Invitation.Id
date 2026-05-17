@@ -209,35 +209,43 @@ function prevPage(){
 fetch("data/porto.json")
   .then(res => res.json())
   .then(data => {
+
     const porto = document.getElementById("portoList");
 
-    // ❗ biar aman kalau section belum ada
     if(!porto) return;
 
     porto.innerHTML = "";
 
     data.forEach(item => {
+
       porto.innerHTML += `
-        <div class="bg-white rounded-2xl shadow-sm hover:shadow-2xl transition duration-300 hover:-translate-y-2 overflow-hidden group border border-white/40">
+      
+      <div class="group">
 
-          <div class="relative group">
-            <img src="${item.gambar}" class="w-full h-80 object-cover transition duration-500 group-hover:scale-105">
+  <a href="${item.link}" target="_blank">
 
-            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+    <!-- FOTO -->
+    <div class="overflow-hidden rounded-2xl">
 
-              <a href="${item.link}" target="_blank"
-              class="bg-white px-4 py-2 rounded-full text-sm font-semibold">
-                Preview
-              </a>
+      <img 
+        src="${item.gambar}" 
+        alt="${item.nama}"
+        class="w-full aspect-square object-cover transition duration-500 group-hover:scale-105"
+      >
 
-            </div>
-          </div>
+    </div>
 
-          <div class="p-4 text-center font-semibold">
-            ${item.nama}
-          </div>
+   <!-- NAMA -->
+<div class="mt-2 text-center text-xs md:text-sm font-semibold leading-tight line-clamp-2 min-h-[38px]">
+  ${item.nama.replace(" Of ", " Of <br>")}
+</div>
 
-        </div>
+  </a>
+
+</div>
+
       `;
+
     });
+
   });
