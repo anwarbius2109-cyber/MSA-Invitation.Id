@@ -567,196 +567,198 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
 
   <div class="max-w-7xl mx-auto px-4">
 
-    <!-- TITLE -->
-    <div class="text-center mb-16">
+ <!-- TITLE -->
+<div class="text-center mb-16">
 
-      <span class="px-4 py-2 rounded-full bg-black text-white text-sm">
-        Pricing Package
-      </span>
+  <span class="px-5 py-2 rounded-full bg-black text-white text-sm tracking-wider">
+    PILIH PAKET TERBAIK
+  </span>
 
-      <h2 class="text-4xl md:text-5xl font-bold mt-6 mb-4 leading-tight">
-        Pilih Paket
-        <span class="text-gray-400">
-          Sesuai Kebutuhan
-        </span>
-      </h2>
+  <h2 class="text-4xl md:text-6xl font-extrabold mt-6 mb-5 leading-tight">
+    Paket Undangan Digital
+    <span class="block text-yellow-500">
+      Elegant & Modern
+    </span>
+  </h2>
 
-      <p class="max-w-2xl mx-auto text-gray-500 leading-relaxed">
-        Kami menyediakan berbagai pilihan paket undangan digital
-        dengan fitur lengkap, tampilan premium, dan proses pengerjaan cepat.
-      </p>
+  <p class="max-w-2xl mx-auto text-gray-500 leading-relaxed text-lg">
+    Pilih paket sesuai kebutuhan acara kamu.
+    Desain premium, fitur lengkap, dan proses pengerjaan cepat.
+  </p>
 
-    </div>
+</div>
 
     <!-- GRID -->
-    <div class="grid md:grid-cols-3 gap-8 items-stretch">
+<div class="grid md:grid-cols-3 gap-8 items-stretch">
 
-      <!-- BASIC -->
-      <div class="rounded-3xl bg-white border border-gray-200 p-8 hover:shadow-2xl transition duration-300">
+  <!-- BASIC -->
+  <div class="paket-card white-card p-8">
+    <div class="mb-8">
 
-        <div class="mb-8">
+      <span class="text-sm text-gray-500 font-medium">
+        Paket Hemat
+      </span>
 
-          <span class="text-sm text-gray-500">
-            Paket Hemat
-          </span>
+      <h3 class="text-3xl font-bold mt-2 mb-3">
+        Basic
+      </h3>
 
-          <h3 class="text-3xl font-bold mt-2 mb-3">
-            Basic
-          </h3>
+      <div class="flex items-center gap-3">
 
-          <div class="flex items-center gap-3">
+        <span class="text-gray-400 line-through text-lg">
+          Rp150.000
+        </span>
 
-            <span class="text-gray-400 line-through">
-              Rp150.000
-            </span>
-
-            <span class="text-4xl font-bold">
-              Rp59K
-            </span>
-
-          </div>
-
-        </div>
-
-        <ul class="space-y-4 text-gray-600 mb-10">
-
-          <li>✔ Max 5x Revisi</li>
-          <li>✔ Unlimited Tamu</li>
-          <li>✔ Musik Latar</li>
-          <li>✔ Google Maps</li>
-          <li>✔ RSVP & Ucapan</li>
-          <li>✔ Amplop Digital</li>
-          <li>✔ Tanpa Foto</li>
-
-        </ul>
-
-        <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Basic"
-          target="_blank"
-          class="block text-center py-3 rounded-2xl border border-black hover:bg-black hover:text-white transition">
-
-          Pilih Paket Basic
-
-        </a>
-
-      </div>
-
-      <!-- PREMIUM -->
-      <div class="rounded-3xl bg-black text-white p-8 scale-105 shadow-2xl relative overflow-hidden">
-
-        <!-- BADGE -->
-        <div class="absolute top-5 right-5">
-
-          <span class="bg-yellow-400 text-black text-xs font-semibold px-3 py-1 rounded-full">
-            BEST SELLER
-          </span>
-
-        </div>
-
-        <div class="absolute top-[-80px] right-[-80px] w-[200px] h-[200px] bg-yellow-400/20 rounded-full blur-3xl"></div>
-
-        <div class="relative z-10">
-
-          <div class="mb-8">
-
-            <span class="text-sm text-gray-300">
-              Paket Favorit
-            </span>
-
-            <h3 class="text-3xl font-bold mt-2 mb-3">
-              Premium
-            </h3>
-
-            <div class="flex items-center gap-3">
-
-              <span class="text-gray-400 line-through">
-                Rp150.000
-              </span>
-
-              <span class="text-5xl font-bold">
-                Rp80K
-              </span>
-
-            </div>
-
-          </div>
-
-          <ul class="space-y-4 text-gray-200 mb-10">
-
-            <li>✔ Max 10x Revisi</li>
-            <li>✔ Unlimited Tamu</li>
-            <li>✔ Musik Latar</li>
-            <li>✔ Google Maps</li>
-            <li>✔ RSVP & Ucapan</li>
-            <li>✔ Amplop Digital</li>
-            <li>✔ Galeri Foto</li>
-
-          </ul>
-
-          <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Premium"
-            target="_blank"
-            class="block text-center py-3 rounded-2xl bg-white text-black font-semibold hover:scale-105 transition">
-
-            Pilih Paket Premium
-
-          </a>
-
-        </div>
-
-      </div>
-
-      <!-- PRIORITAS -->
-      <div class="rounded-3xl bg-white border border-gray-200 p-8 hover:shadow-2xl transition duration-300">
-
-        <div class="mb-8">
-
-          <span class="text-sm text-gray-500">
-            Paket Lengkap
-          </span>
-
-          <h3 class="text-3xl font-bold mt-2 mb-3">
-            Prioritas
-          </h3>
-
-          <div class="flex items-center gap-3">
-
-            <span class="text-gray-400 line-through">
-              Rp150.000
-            </span>
-
-            <span class="text-4xl font-bold">
-              Rp120K
-            </span>
-
-          </div>
-
-        </div>
-
-        <ul class="space-y-4 text-gray-600 mb-10">
-
-          <li>✔ Max 15x Revisi</li>
-          <li>✔ Unlimited Tamu</li>
-          <li>✔ Musik Latar</li>
-          <li>✔ Google Maps</li>
-          <li>✔ RSVP & Ucapan</li>
-          <li>✔ Amplop Digital</li>
-          <li>✔ Galeri Foto</li>
-          <li>✔ Love Story</li>
-          <li>✔ Turut Mengundang</li>
-          <li>✔ Video Prewedding</li>
-
-        </ul>
-
-        <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Prioritas"
-          target="_blank"
-          class="block text-center py-3 rounded-2xl border border-black hover:bg-black hover:text-white transition">
-
-          Pilih Paket Prioritas
-
-        </a>
+        <span class="text-5xl font-extrabold tracking-tight">
+          Rp59K
+        </span>
 
       </div>
 
     </div>
+
+    <ul class="space-y-4 text-gray-600 mb-10">
+
+      <li>✔ Max 5x Revisi</li>
+      <li>✔ Unlimited Tamu</li>
+      <li>✔ Musik Latar</li>
+      <li>✔ Google Maps</li>
+      <li>✔ RSVP & Ucapan</li>
+      <li>✔ Amplop Digital</li>
+      <li>✔ Tanpa Foto</li>
+
+    </ul>
+
+    <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Basic"
+      target="_blank"
+      class="block text-center py-4 rounded-2xl border border-black font-semibold hover:bg-black hover:text-white hover:scale-105 transition-all duration-300">
+
+      Pilih Paket Basic
+
+    </a>
+
+  </div>
+
+  <!-- PREMIUM -->
+  <div class="rounded-[32px] bg-black text-white p-8 md:scale-110 shadow-[0_20px_70px_rgba(0,0,0,0.35)] relative overflow-hidden border border-yellow-400/30">
+
+    <!-- BADGE -->
+    <div class="absolute top-5 right-5">
+
+      <span class="bg-yellow-400 text-black text-xs font-bold px-4 py-1 rounded-full">
+        PALING FAVORIT
+      </span>
+
+    </div>
+
+    <!-- GLOW -->
+    <div class="absolute top-[-80px] right-[-80px] w-[220px] h-[220px] bg-yellow-400/20 rounded-full blur-3xl"></div>
+
+    <div class="absolute bottom-[-100px] left-[-100px] w-[220px] h-[220px] bg-yellow-400/20 rounded-full blur-3xl"></div>
+
+    <div class="relative z-10">
+
+      <div class="mb-8">
+
+        <span class="text-sm text-gray-300 font-medium">
+          Paket Favorit
+        </span>
+
+        <h3 class="text-3xl font-bold mt-2 mb-3">
+          Premium
+        </h3>
+
+        <div class="flex items-center gap-3">
+
+          <span class="text-gray-400 line-through text-lg">
+            Rp180.000
+          </span>
+
+          <span class="text-6xl font-extrabold tracking-tight text-yellow-400">
+            Rp80K
+          </span>
+
+        </div>
+
+      </div>
+
+      <ul class="space-y-4 text-gray-200 mb-10">
+
+        <li>✔ Max 10x Revisi</li>
+        <li>✔ Unlimited Tamu</li>
+        <li>✔ Musik Latar</li>
+        <li>✔ Google Maps</li>
+        <li>✔ RSVP & Ucapan</li>
+        <li>✔ Amplop Digital</li>
+        <li>✔ Galeri Foto</li>
+
+      </ul>
+
+      <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Premium"
+        target="_blank"
+        class="block text-center py-4 rounded-2xl bg-yellow-400 text-black font-bold hover:scale-105 hover:bg-yellow-300 transition-all duration-300">
+
+        Ambil Paket Ini
+
+      </a>
+
+    </div>
+
+  </div>
+
+  <!-- PRIORITAS -->
+  <div class="paket-card white-card p-8">
+
+    <div class="mb-8">
+
+      <span class="text-sm text-gray-500 font-medium">
+        Paket Lengkap
+      </span>
+
+      <h3 class="text-3xl font-bold mt-2 mb-3">
+        Prioritas
+      </h3>
+
+      <div class="flex items-center gap-3">
+
+        <span class="text-gray-400 line-through text-lg">
+          Rp250.000
+        </span>
+
+        <span class="text-5xl font-extrabold tracking-tight">
+          Rp120K
+        </span>
+
+      </div>
+
+    </div>
+
+    <ul class="space-y-4 text-gray-600 mb-10">
+
+      <li>✔ Max 15x Revisi</li>
+      <li>✔ Unlimited Tamu</li>
+      <li>✔ Musik Latar</li>
+      <li>✔ Google Maps</li>
+      <li>✔ RSVP & Ucapan</li>
+      <li>✔ Amplop Digital</li>
+      <li>✔ Galeri Foto</li>
+      <li>✔ Love Story</li>
+      <li>✔ Turut Mengundang</li>
+      <li>✔ Video Prewedding</li>
+
+    </ul>
+
+    <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Prioritas"
+      target="_blank"
+      class="block text-center py-4 rounded-2xl border border-black font-semibold hover:bg-black hover:text-white hover:scale-105 transition-all duration-300">
+
+      Pilih Paket Prioritas
+
+    </a>
+
+  </div>
+
+</div>
 
   </div>
 
