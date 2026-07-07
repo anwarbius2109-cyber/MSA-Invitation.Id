@@ -1,6 +1,31 @@
 [
   {
-    "nama": "The Wedding Of Trio of Nurma",
+    "nama": "The Wedding Of Stven & Via",
+    "gambar": "assets/44.webp",
+    "link": "https://id.sudahnikah.com/d/Steven-dan-Via?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Nafis & Edo",
+    "gambar": "assets/43.webp",
+    "link": "https://id.sudahnikah.com/d/Nafisah-dan-Edo?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Ara & Ardi",
+    "gambar": "assets/42.webp",
+    "link": "https://id.sudahnikah.com/s/1448188/undangan?kpd=Bapak+Budi"
+    },
+  {
+    "nama": "Tasyakuran Khitanan",
+    "gambar": "assets/41.webp",
+    "link": "https://id.sudahnikah.com/s/1448249/undangan?kpd=Bapak+Budi"
+    },
+  {
+    "nama": "Taskauran Khitanan Of Ali,
+    "gambar": "assets/40.webp",
+    "link": "https://id.sudahnikah.com/d/Taskauran-Khitanan-Alif?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Trio & Nurma",
     "gambar": "assets/39.webp",
     "link": "https://id.sudahnikah.com/d/Trio-dan-Nurma?kpd=Tamu+Undangan"
     },
