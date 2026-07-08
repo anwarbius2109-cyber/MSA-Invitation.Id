@@ -1,5 +1,19 @@
 [
   {
+    "nama": "Aesthetic Romance",
+    "gambar": "assets/Aesthetic Romance.jpg",
+    "link": "https://id.sudahnikah.com/s/907268/undangan?kpd=Bapak+Budi",
+    "kategori": "wedding",
+    "keyword": ["aesthetic","romantis","soft","modern","populer"]
+},
+{
+    "nama": "Elegan Gray",
+    "gambar": "assets/Elegan Gray.jpg",
+    "link": "https://id.sudahnikah.com/d/Dammang-dan-Nhia?kpd=Tamu+Undangan",
+    "kategori": "wedding",
+    "keyword": ["gray","abu","minimalis","silver","populer"]
+  },
+  {
     "nama": "Burgundy Pure",
     "gambar": "assets/Burgundy Pure.png",
     "link": "https://id.sudahnikah.com/d/Burgundy-Pure?kpd=Tamu+Undangan",
@@ -728,13 +742,6 @@
   "keyword": ["koran","retro","Newspaper","hitam"]
 },
 {
-  "nama": "Aesthetic Romance",
-  "gambar": "assets/Aesthetic Romance.jpg",
-  "link": "https://id.sudahnikah.com/s/907268/undangan?kpd=Bapak+Budi",
-  "kategori": "wedding",
-  "keyword": ["aesthetic","romantis","soft","modern","populer"]
-},
-{
   "nama": "Elegan White",
   "gambar": "assets/Elegan White.webp",
   "link": "https://id.sudahnikah.com/d/Elegan-White?kpd=Bapak+Budi",
@@ -747,12 +754,5 @@
   "link": "https://id.sudahnikah.com/d/elegan-and-nature?kpd=Bapak+Budi",
   "kategori": "wedding",
   "keyword": ["soft","pink","green","hijau"]
-},
-{
-  "nama": "Elegan Gray",
-  "gambar": "assets/Elegan Gray.jpg",
-  "link": "https://id.sudahnikah.com/d/Dammang-dan-Nhia?kpd=Tamu+Undangan",
-  "kategori": "wedding",
-  "keyword": ["gray","abu","minimalis","silver","populer"]
 }
 ]
