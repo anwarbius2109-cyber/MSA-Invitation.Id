@@ -1,5 +1,30 @@
 [
   {
+    "nama": "The Wedding Of Afra & Fian",
+    "gambar": "assets/97.webp",
+    "link": "https://id.sudahnikah.com/d/Afra-dan-Fian?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Rino & Selvi",
+    "gambar": "assets/96.jpeg",
+    "link": "https://id.sudahnikah.com/d/Rino-dan-Selvi?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Feby & Bambang",
+    "gambar": "assets/95.jpeg",
+    "link": "https://id.sudahnikah.com/d/Feby-dan-Bambang?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "Khitanan Of Arsaka",
+    "gambar": "assets/94.jpeg",
+    "link": "https://id.sudahnikah.com/d/Khitanan-Arsaka?kpd=Tamu+Undangan"
+    },
+  {
+    "nama": "The Wedding Of Anisa & Fatoni",
+    "gambar": "assets/93.jpeg",
+    "link": "https://id.sudahnikah.com/d/Anisa-dan-Fatoni?kpd=Tamu+Undangan"
+    },
+  {
     "nama": "The Wedding Of Heri & Rona",
     "gambar": "assets/92.jpeg",
     "link": "https://id.sudahnikah.com/d/Heri-dan-Rona?kpd=Tamu+Undangan"
