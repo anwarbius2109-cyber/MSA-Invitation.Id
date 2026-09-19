@@ -83,8 +83,7 @@
   Reseller
 </a>
 
-      <a href="https://wa.me/6281261233730?text=Basic%0APremium%0AExclusiv"
-
+      <a href="https://wa.me/6281261233730"
         target="_blank"
         class="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition">
 
@@ -138,7 +137,7 @@
   Reseller
 </a>
 
-    <a href="https://wa.me/6281261233730?text=Basic%0APremium%0AExclusiv"
+    <a href="https://wa.me/6281261233730"
       target="_blank"
       class="block text-center bg-black text-white py-2 rounded-full">
 
@@ -195,7 +194,7 @@
 
       </a>
 
-      <a href="https://wa.me/6281261233730?text=Mau%20Tanya%20Dulu%20Kak"
+      <a href="https://wa.me/6281261233730"
         target="_blank"
         class="px-6 py-3 rounded-full bg-white border hover:bg-gray-100 transition">
 
@@ -593,113 +592,95 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
 <div class="grid md:grid-cols-3 gap-8 items-stretch">
 
   <!-- BASIC -->
-  <div class="paket-card white-card p-8">
-    <div class="mb-8">
+<div class="relative rounded-[32px] bg-white border border-gray-200 shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 overflow-hidden flex flex-col">
 
-      <span class="text-sm text-gray-500 font-medium">
-        Paket Hemat
+  <!-- Ribbon -->
+  <div class="absolute top-5 -right-10 rotate-45 bg-gradient-to-r from-yellow-400 to-yellow-300 text-black text-[11px] font-bold px-10 py-1 shadow">
+   💎 HEMAT
+  </div>
+
+  <div class="p-8 flex flex-col h-full">
+
+    <!-- Icon -->
+    <div class="w-16 h-16 rounded-2xl bg-yellow-100 flex items-center justify-center text-3xl mb-6">
+      💎
+    </div>
+
+    <!-- Judul -->
+    <span class="text-sm font-medium text-gray-500">
+      Paket Hemat
+    </span>
+
+    <h3 class="text-3xl font-bold mt-2">
+      Basic
+    </h3>
+
+    <!-- Harga -->
+    <div class="mt-5 mb-6">
+
+      <span class="text-gray-400 line-through text-lg">
+        Rp150.000
       </span>
 
-      <h3 class="text-3xl font-bold mt-2 mb-3">
-        Basic
-      </h3>
+      <div class="flex items-end gap-2 mt-1">
 
-      <div class="flex items-center gap-3">
-
-        <span class="text-gray-400 line-through text-lg">
-          Rp150.000
-        </span>
-
-        <span class="text-5xl font-extrabold tracking-tight">
+        <span class="text-5xl font-extrabold tracking-tight text-gray-900">
           Rp59K
         </span>
 
       </div>
 
-    </div>
-
-    <ul class="space-y-4 text-gray-600 mb-10">
-
-      <li>✔ Max 5x Revisi</li>
-      <li>✔ Unlimited Tamu</li>
-      <li>✔ Musik Latar</li>
-      <li>✔ Google Maps</li>
-      <li>✔ RSVP & Ucapan</li>
-      <li>✔ Amplop Digital</li>
-      <li>✔ Tanpa Foto</li>
-
-    </ul>
-
-    <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Basic"
-      target="_blank"
-      class="block text-center py-4 rounded-2xl border border-black font-semibold hover:bg-black hover:text-white hover:scale-105 transition-all duration-300">
-
-      Pilih Paket Basic
-
-    </a>
-
-  </div>
-
-  <!-- PREMIUM -->
-  <div class="rounded-[32px] bg-black text-white p-8 md:scale-110 shadow-[0_20px_70px_rgba(0,0,0,0.35)] relative overflow-hidden border border-yellow-400/30">
-
-    <!-- BADGE -->
-    <div class="absolute top-5 right-5">
-
-      <span class="bg-yellow-400 text-black text-xs font-bold px-4 py-1 rounded-full">
-        PALING FAVORIT
-      </span>
+      <p class="text-sm text-gray-500 mt-2">
+Masa aktif 3 bulan
+</p>
 
     </div>
 
-    <!-- GLOW -->
-    <div class="absolute top-[-80px] right-[-80px] w-[220px] h-[220px] bg-yellow-400/20 rounded-full blur-3xl"></div>
+    <!-- Fitur -->
+    <div class="border-t pt-5">
 
-    <div class="absolute bottom-[-100px] left-[-100px] w-[220px] h-[220px] bg-yellow-400/20 rounded-full blur-3xl"></div>
+      <h4 class="text-xs font-bold tracking-widest text-yellow-600 uppercase mb-4">
+        Fitur Utama
+      </h4>
 
-    <div class="relative z-10">
+      <ul class="space-y-3 text-gray-700">
 
-      <div class="mb-8">
-
-        <span class="text-sm text-gray-300 font-medium">
-          Paket Favorit
-        </span>
-
-        <h3 class="text-3xl font-bold mt-2 mb-3">
-          Premium
-        </h3>
-
-        <div class="flex items-center gap-3">
-
-          <span class="text-gray-400 line-through text-lg">
-            Rp180.000
-          </span>
-
-          <span class="text-6xl font-extrabold tracking-tight text-yellow-400">
-            Rp80K
-          </span>
-
-        </div>
-
-      </div>
-
-      <ul class="space-y-4 text-gray-200 mb-10">
-
-        <li>✔ Max 10x Revisi</li>
-        <li>✔ Unlimited Tamu</li>
-        <li>✔ Musik Latar</li>
-        <li>✔ Google Maps</li>
-        <li>✔ RSVP & Ucapan</li>
-        <li>✔ Amplop Digital</li>
-        <li>✔ Galeri Foto</li>
+        <li>✅ Unlimited Tamu</li>
+        <li>✅ Musik Latar</li>
+        <li>✅ Google Maps</li>
+        <li>✅ RSVP & Ucapan</li>
+        <li>✅ Amplop Digital</li>
+        <li>✅ Tanpa Foto</li>
 
       </ul>
 
-      <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Premium"
-        target="_blank"
-        class="block text-center py-4 rounded-2xl bg-yellow-400 text-black font-bold hover:scale-105 hover:bg-yellow-300 transition-all duration-300">
+    </div>
 
-        Ambil Paket Ini
+    <!-- Bonus -->
+    <div class="border-t mt-6 pt-5">
+
+      <h4 class="text-xs font-bold tracking-widest text-yellow-600 uppercase mb-4">
+        Bonus
+      </h4>
+
+      <ul class="space-y-3 text-gray-700">
+
+        <li>🎁 Max. 5x Revisi</li>
+        <li>🎁 Gratis Konsultasi</li>
+        <li>🎁 Support via WhatsApp</li>
+
+      </ul>
+
+    </div>
+
+    <!-- Tombol -->
+    <div class="mt-auto pt-8">
+
+      <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Basic"
+        target="_blank"
+        class="block text-center py-4 rounded-2xl font-bold text-black bg-gradient-to-r from-yellow-400 to-yellow-300 hover:from-yellow-300 hover:to-yellow-400 hover:scale-[1.03] transition-all duration-300 shadow-lg">
+
+        Pilih Paket Basic
 
       </a>
 
@@ -707,61 +688,216 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
 
   </div>
 
-  <!-- PRIORITAS -->
-  <div class="paket-card white-card p-8">
+</div>
 
-    <div class="mb-8">
+ <!-- PREMIUM -->
+<div class="relative rounded-[36px] bg-gradient-to-br from-gray-950 via-black to-gray-900 text-white border-2 border-yellow-400 shadow-2xl md:scale-110 md:-translate-y-5 overflow-hidden flex flex-col">
 
-      <span class="text-sm text-gray-500 font-medium">
-        Paket Lengkap
+  <!-- Glow -->
+  <div class="absolute -top-24 -right-24 w-72 h-72 bg-yellow-400/20 rounded-full blur-3xl"></div>
+  <div class="absolute -bottom-24 -left-24 w-72 h-72 bg-yellow-400/10 rounded-full blur-3xl"></div>
+
+  <!-- Badge -->
+  <div class="absolute top-5 right-5">
+    <span class="bg-gradient-to-r from-yellow-400 to-yellow-300 text-black text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+      🔥 PALING LARIS
+    </span>
+  </div>
+
+  <div class="relative z-10 p-8 flex flex-col h-full">
+
+    <!-- Icon -->
+    <div class="w-20 h-20 rounded-3xl bg-gradient-to-br from-yellow-400 to-yellow-300 text-black flex items-center justify-center text-5xl shadow-lg mb-6">
+      🔥
+    </div>
+
+    <!-- Judul -->
+    <span class="text-sm uppercase tracking-widest text-yellow-300 font-semibold">
+      Paket Terfavorit
+    </span>
+
+    <h3 class="text-4xl font-extrabold mt-2">
+      Premium
+    </h3>
+
+    <!-- Harga -->
+    <div class="mt-6 mb-6">
+
+      <span class="text-gray-400 line-through text-lg">
+        Rp180.000
       </span>
 
-      <h3 class="text-3xl font-bold mt-2 mb-3">
-        Prioritas
-      </h3>
+      <div class="flex items-end gap-2 mt-1">
 
-      <div class="flex items-center gap-3">
-
-        <span class="text-gray-400 line-through text-lg">
-          Rp250.000
-        </span>
-
-        <span class="text-5xl font-extrabold tracking-tight">
-          Rp120K
+        <span class="text-6xl font-black tracking-tight text-yellow-300">
+          Rp80K
         </span>
 
       </div>
 
+      <p class="text-sm text-gray-300 mt-2">
+Masa aktif 6 bulan
+</p>
+
     </div>
 
-    <ul class="space-y-4 text-gray-600 mb-10">
+    <!-- Fitur -->
+    <div class="border-t border-yellow-400/20 pt-5">
 
-      <li>✔ Max 15x Revisi</li>
-      <li>✔ Unlimited Tamu</li>
-      <li>✔ Musik Latar</li>
-      <li>✔ Google Maps</li>
-      <li>✔ RSVP & Ucapan</li>
-      <li>✔ Amplop Digital</li>
-      <li>✔ Galeri Foto</li>
-      <li>✔ Love Story</li>
-      <li>✔ Turut Mengundang</li>
-      <li>✔ Video Prewedding</li>
+      <h4 class="text-xs font-bold tracking-[3px] text-yellow-300 uppercase mb-4">
+        Fitur Premium
+      </h4>
 
-    </ul>
+      <ul class="space-y-3 text-gray-200">
 
-    <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Prioritas"
-      target="_blank"
-      class="block text-center py-4 rounded-2xl border border-black font-semibold hover:bg-black hover:text-white hover:scale-105 transition-all duration-300">
+        <li>✅ Unlimited Tamu</li>
+        <li>✅ Musik Latar</li>
+        <li>✅ Google Maps</li>
+        <li>✅ RSVP & Ucapan</li>
+        <li>✅ Amplop Digital</li>
+        <li>✅ Galeri Foto</li>
 
-      Pilih Paket Prioritas
+      </ul>
 
-    </a>
+    </div>
+
+    <!-- Bonus -->
+    <div class="border-t border-yellow-400/20 mt-6 pt-5">
+
+      <h4 class="text-xs font-bold tracking-[3px] text-yellow-300 uppercase mb-4">
+        Bonus
+      </h4>
+
+      <ul class="space-y-3 text-gray-200">
+
+        <li>🎁 Max. 10x Revisi</li>
+        <li>🎁 Prioritas Pengerjaan</li>
+        <li>🎁 Gratis Konsultasi</li>
+        <li>🎁 Support WhatsApp Prioritas</li>
+
+      </ul>
+
+    </div>
+
+    <!-- Tombol -->
+    <div class="mt-auto pt-8">
+
+      <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Premium"
+        target="_blank"
+        class="block text-center py-4 rounded-2xl font-bold text-black bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 hover:scale-105 hover:shadow-xl transition-all duration-300">
+
+        🚀 Ambil Paket Premium
+
+      </a>
+
+    </div>
 
   </div>
 
 </div>
 
+  <!-- PRIORITAS -->
+<div class="relative rounded-[32px] bg-white border border-yellow-200 shadow-lg hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 overflow-hidden flex flex-col">
+
+  <!-- Ribbon -->
+  <div class="absolute top-5 -right-10 rotate-45 bg-gradient-to-r from-yellow-500 to-amber-300 text-black text-[11px] font-bold px-10 py-1 shadow">
+   ⭐ BEST VALUE
   </div>
+
+  <div class="p-8 flex flex-col h-full">
+
+    <!-- Icon -->
+    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-yellow-400 to-yellow-200 flex items-center justify-center text-3xl shadow-md mb-6">
+      ⭐
+    </div>
+
+    <!-- Judul -->
+    <span class="text-sm uppercase tracking-widest text-gray-500 font-semibold">
+      Paket Terlengkap
+    </span>
+
+    <h3 class="text-3xl font-extrabold mt-2">
+      Prioritas
+    </h3>
+
+    <!-- Harga -->
+    <div class="mt-5 mb-6">
+
+      <span class="text-gray-400 line-through text-lg">
+        Rp250.000
+      </span>
+
+      <div class="flex items-end gap-2 mt-1">
+
+        <span class="text-5xl font-black tracking-tight text-gray-900">
+          Rp120K
+        </span>
+
+      </div>
+
+      <p class="text-sm text-gray-500 mt-2">
+Masa aktif 12 bulan
+</p>
+
+    </div>
+
+    <!-- Fitur -->
+    <div class="border-t pt-5">
+
+      <h4 class="text-xs font-bold tracking-[3px] uppercase text-yellow-600 mb-4">
+        Fitur Lengkap
+      </h4>
+
+      <ul class="space-y-3 text-gray-700">
+
+        <li>✅ Unlimited Tamu</li>
+        <li>✅ Musik Latar</li>
+        <li>✅ Google Maps</li>
+        <li>✅ RSVP & Ucapan</li>
+        <li>✅ Amplop Digital</li>
+        <li>✅ Galeri Foto</li>
+        <li>✅ Love Story</li>
+        <li>✅ Turut Mengundang</li>
+        <li>✅ Video Prewedding</li>
+
+      </ul>
+
+    </div>
+
+    <!-- Bonus -->
+    <div class="border-t mt-6 pt-5">
+
+      <h4 class="text-xs font-bold tracking-[3px] uppercase text-yellow-600 mb-4">
+        Bonus Eksklusif
+      </h4>
+
+      <ul class="space-y-3 text-gray-700">
+
+        <li>🎁 Bebas Revisi</li>
+        <li>🎁 Prioritas Pengerjaan</li>
+        <li>🎁 Gratis Konsultasi</li>
+        <li>🎁 Support WhatsApp Prioritas</li>
+
+      </ul>
+
+    </div>
+
+    <!-- Tombol -->
+    <div class="mt-auto pt-8">
+
+      <a href="https://wa.me/6281261233730?text=Saya+mau+paket+Prioritas"
+        target="_blank"
+        class="block text-center py-4 rounded-2xl font-bold text-black bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 hover:scale-105 hover:shadow-xl transition-all duration-300">
+
+        💎 Pilih Paket Prioritas
+
+      </a>
+
+    </div>
+
+  </div>
+
+</div>
 
 </section>
  <!-- TESTIMONI -->
@@ -870,9 +1006,20 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
     Portfolio Kami
   </h2>
 
-  <p class="text-center max-w-2xl mx-auto mb-10 opacity-80">
+  <p class="text-center max-w-2xl mx-auto opacity-80">
     Hasil Undangan Digital Yang Kami Buat Dengan Sepenuh Hati
-  </p>
+</p>
+
+<div class="flex flex-col items-center mt-5 mb-10">
+    <div class="inline-flex items-center gap-2 bg-white/80 border border-amber-200 text-amber-700 px-5 py-2 rounded-full shadow-sm hover:shadow-md transition">
+        <i class="fas fa-mouse-pointer"></i>
+        <span class="text-sm font-medium">
+            Klik foto di bawah untuk melihat Preview Undangan
+        </span>
+    </div>
+
+    <i class="fas fa-angles-down text-amber-500 text-xl mt-3 animate-bounce"></i>
+</div>
 
   <div id="portoList" class="porto-grid"></div>
 
@@ -895,212 +1042,211 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
 </section>
   
 <!-- SECTION SHOPEE -->
-<section class="py-20">
-  <div class="max-w-6xl mx-auto px-6">
+<section class="py-20" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-6">
 
-    <!-- Card -->
-    <div class="rounded-[32px] bg-[#0F0F0F] border border-white/10 p-8 md:p-12 hover:-translate-y-3 hover:shadow-[0_20px_60px_rgba(0,0,0,0.35)] transition-all duration-500">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
 
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-
-        <!-- Foto -->
-        <div class="relative">
-          <img 
-            src="assets/MSA.COM.png"
-            alt="Shopee Store"
-            class="rounded-[24px] border border-white/10 shadow-2xl w-full"
-          />
-        </div>
-
-        <!-- Content -->
-        <div>
-
-          <!-- Label -->
-          <span class="text-sm text-orange-400 font-medium">
-            Order Lebih Aman
-          </span>
-
-          <!-- Title -->
-          <h2 class="text-3xl md:text-5xl font-bold text-white mt-3 mb-5 leading-tight">
-            Masih Ragu Order di Kami?
-          </h2>
-
-          <!-- Description -->
-          <p class="text-gray-300 leading-relaxed mb-8">
-            Kakak juga bisa melakukan pemesanan melalui toko Shopee resmi kami ✨
-            Lebih praktis, terpercaya, dan tersedia banyak ulasan dari pelanggan.
-          </p>
-
-          <!-- List -->
-          <div class="space-y-4 mb-8">
-
-            <div class="flex items-center gap-3">
-              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
-                ✓
-              </div>
-
-              <p class="text-gray-200">
-                Sudah dipercaya banyak pelanggan
-              </p>
+            <!-- Gambar -->
+            <div class="order-1">
+                <img src="assets/MSA.COM.png"
+                    alt="MSA Invitation Shopee"
+                    class="w-full max-w-md mx-auto drop-shadow-2xl hover:scale-105 transition duration-500">
             </div>
 
-            <div class="flex items-center gap-3">
-              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
-                ✓
-              </div>
+            <!-- Konten -->
+            <div class="order-2">
 
-              <p class="text-gray-200">
-                Bisa cek rating dan ulasan toko langsung
-              </p>
+                <span class="inline-block px-4 py-2 rounded-full bg-orange-100 text-orange-600 text-sm font-semibold mb-4">
+                    Official Shopee Store
+                </span>
+
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                    Belanja Lebih Aman di Shopee
+                </h2>
+
+                <p class="text-gray-600 leading-8 mb-6">
+                    Kini Anda juga bisa melakukan pemesanan melalui <b>Shopee Official Store</b>.
+                    Nikmati proses belanja yang lebih praktis, aman, serta dapat melihat rating dan ulasan pelanggan sebelum melakukan pembelian.
+                </p>
+
+                <div class="space-y-3 mb-8">
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-orange-500 text-xl">✓</span>
+                        <span class="text-gray-700">Banyak ulasan pelanggan</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-orange-500 text-xl">✓</span>
+                        <span class="text-gray-700">Pembayaran lebih aman</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-orange-500 text-xl">✓</span>
+                        <span class="text-gray-700">Proses cepat & terpercaya</span>
+                    </div>
+
+                </div>
+
+                <a href="https://shopee.co.id/product/99830023/15789569960/"
+                    target="_blank"
+                    class="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition hover:scale-105">
+
+                    🛒 Kunjungi Toko Shopee
+
+                </a>
+
             </div>
-
-            <div class="flex items-center gap-3">
-              <div class="w-6 h-6 rounded-full bg-orange-500/10 flex items-center justify-center text-orange-400 text-sm">
-                ✓
-              </div>
-
-              <p class="text-gray-200">
-                Pembayaran lebih praktis dan aman
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Button -->
-          <a 
-            href="https://shopee.co.id/product/99830023/15789569960/"
-            target="_blank"
-            class="inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105"
-          >
-
-            <!-- Icon -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M19 6h-2a5 5 0 0 0-10 0H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2Zm-7-3a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3Zm7 16H5V8h14v11Z"/>
-            </svg>
-
-            Kunjungi Toko Shopee
-
-          </a>
 
         </div>
-
-      </div>
 
     </div>
-
-  </div>
 </section>
-  <!-- RESELLER -->
-<section id="reseller" class="py-20" data-aos="fade-up">
+  
+ <!-- Produk Tambahan - Agen Pulsa -->
+<section class="py-20 bg-white" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-4">
 
-  <div class="max-w-6xl mx-auto px-4">
+        <div class="grid lg:grid-cols-2 gap-10 items-center">
 
-    <div class="rounded-3xl bg-gradient-to-br from-black to-gray-800 text-white p-8 md:p-14 overflow-hidden relative">
-
-      <!-- GLOW -->
-      <div class="absolute top-[-100px] right-[-100px] w-[250px] h-[250px] bg-yellow-400/20 blur-3xl rounded-full"></div>
-
-      <div class="relative z-10">
-
-        <!-- TITLE -->
-        <div class="text-center mb-12">
-
-          <span class="px-4 py-2 rounded-full bg-white/10 border border-white/20 text-sm">
-            Program Reseller
-          </span>
-
-          <h2 class="text-3xl md:text-5xl font-bold mt-6 mb-4 leading-tight">
-
-            Join Reseller
-            <br>
-            MSA Invitation ✨
-
-          </h2>
-
-          <p class="text-gray-300 max-w-3xl mx-auto leading-relaxed">
-
-            Mulai bisnis undangan digital tanpa perlu bisa coding atau desain.
-            Cocok untuk pelajar, freelancer, admin wedding, maupun yang ingin
-            menambah penghasilan dari rumah.
-
-          </p>
-
-        </div>
-
-        <!-- BENEFIT -->
-        <div class="grid md:grid-cols-3 gap-6 mb-12">
-
-          <!-- 1 -->
-          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
-
-            <div class="text-3xl mb-4">
-              💰
+            <!-- Gambar -->
+            <div class="order-1">
+                <img src="assets/Open Reseller.png"
+                    alt="CPS Reload"
+                    class="w-full max-w-md mx-auto rounded-3xl shadow-2xl">
             </div>
 
-            <h3 class="text-xl font-semibold mb-2">
-              Profit Menarik
-            </h3>
+            <!-- Konten -->
+            <div class="order-2">
 
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Ambil keuntungan sendiri dari setiap penjualan undangan digital.
-            </p>
+                <span class="inline-block px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-semibold mb-4">
+                    Produk Tambahan
+                </span>
 
-          </div>
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                    Jadi Agen Pulsa & PPOB
+                </h2>
 
-          <!-- 2 -->
-          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
+                <p class="text-gray-600 leading-8 mb-6">
+                    Tambah penghasilan dengan menjadi <strong>Agen CPS Reload</strong>.
+                    Nikmati layanan Pulsa, Paket Data, Token PLN, Top Up E-Wallet,
+                    Voucher Game, hingga pembayaran tagihan dalam satu aplikasi.
+                </p>
 
-            <div class="text-3xl mb-4">
-              ⚡
+                <div class="grid grid-cols-2 gap-3 mb-8">
+
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check-circle text-blue-500"></i>
+                        <span>Modal Kecil</span>
+                    </div>
+
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check-circle text-blue-500"></i>
+                        <span>Transaksi 24 Jam</span>
+                    </div>
+
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check-circle text-blue-500"></i>
+                        <span>Harga Bersaing</span>
+                    </div>
+
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-check-circle text-blue-500"></i>
+                        <span>Support CS</span>
+                    </div>
+
+                </div>
+
+                <div class="bg-blue-50 border border-blue-200 rounded-2xl p-5 mb-8">
+
+                    <p class="text-sm text-gray-500 mb-1">
+                        Gunakan Kode Referral
+                    </p>
+
+                    <h3 class="text-4xl font-extrabold text-blue-600">
+                        MSA02
+                    </h3>
+
+                </div>
+
+                <a href="https://wa.me/6281261233730?text=Halo%20Admin,%20saya%20ingin%20mendaftar%20menjadi%20Agen%20CPS%20Reload.%20Kode%20Referral%20MSA02"
+                    target="_blank"
+                    class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition duration-300">
+
+                    <i class="fas fa-user-plus"></i>
+                    Daftar Jadi Agen
+
+                </a>
+
             </div>
 
-            <h3 class="text-xl font-semibold mb-2">
-              Proses Cepat 1x24 Jam
-            </h3>
-
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Tim kami membantu proses pengerjaan sehingga kamu tinggal fokus jualan.
-            </p>
-
-          </div>
-
-          <!-- 3 -->
-          <div class="rounded-2xl bg-white/5 border border-white/10 p-6 backdrop-blur">
-
-            <div class="text-3xl mb-4">
-              🎨
-            </div>
-
-            <h3 class="text-xl font-semibold mb-2">
-              150+ Tema Premium
-            </h3>
-
-            <p class="text-gray-300 text-sm leading-relaxed">
-              Banyak pilihan tema elegan dan modern siap dipasarkan kembali.
-            </p>
-
-          </div>
-
         </div>
-
-        <!-- CTA -->
-        <div class="text-center">
-
-          <a href="https://wa.me/6281261233730?text=Halo+saya+ingin+join+reseller"
-            target="_blank"
-            class="inline-block px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition">
-
-            Gabung Reseller Sekarang
-
-          </a>
-
-        </div>
-
-      </div>
 
     </div>
+</section>
+  
+<!-- RESELLER -->
+<section id="reseller" class="py-20" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-6">
 
-  </div>
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+            <!-- Gambar -->
+            <div class="order-1">
+                <img src="assets/Open Reseler.png"
+                    alt="Join Reseller"
+                    class="w-full max-w-md mx-auto drop-shadow-2xl hover:scale-105 transition duration-500">
+            </div>
+
+            <!-- Konten -->
+            <div class="order-2">
+
+                <span class="inline-block px-4 py-2 rounded-full bg-emerald-100 text-emerald-600 text-sm font-semibold mb-4">
+                    Program Reseller
+                </span>
+
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">
+                    Bangun Bisnis Undangan Website
+                </h2>
+
+                <p class="text-gray-600 leading-8 mb-6">
+                    Mulai bisnis <b>Undangan Website Digital</b> dengan brand Anda sendiri tanpa perlu bisa coding atau desain. Kami yang mengerjakan, Anda cukup fokus memasarkan dan mendapatkan keuntungan.
+                </p>
+
+                <div class="space-y-3 mb-8">
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-emerald-500 text-xl">✓</span>
+                        <span class="text-gray-700">Profit menarik setiap order</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-emerald-500 text-xl">✓</span>
+                        <span class="text-gray-700">150+ tema premium siap jual</span>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                        <span class="text-emerald-500 text-xl">✓</span>
+                        <span class="text-gray-700">Pengerjaan cepat & support penuh</span>
+                    </div>
+
+                </div>
+
+                <a href="https://wa.me/6281261233730?text=Halo%20Admin,%20saya%20ingin%20bergabung%20menjadi%20Reseller%20MSA%20Invitation."
+                    target="_blank"
+                    class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-8 py-4 rounded-xl shadow-lg transition hover:scale-105">
+
+                    🤝 Gabung Reseller
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
 
 </section>
 <!-- 🔥 FOOTER TARUH DI SINI -->
@@ -1111,7 +1257,7 @@ class="grid !grid-cols-2 lg:!grid-cols-5 gap-4 scroll-mt-36">
     <p class="text-sm text-gray-500 mb-2">
       © MSA Invitation - Undangan Website Termurah
     </p>
-
+Modern • Elegan • Responsif
     <p class="text-sm text-gray-400 mb-6">
       Aceh, Indonesia
     </p>
@@ -1168,7 +1314,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <!-- FLOATING WHATSAPP -->
-<a href="https://wa.me/6281261233730?text=Basic%0APremium%0AExclusiv"
+<a href="https://wa.me/6281261233730"
    target="_blank"
    class="fixed bottom-5 right-5 z-50 flex items-center gap-3 bg-green-500 text-white px-5 py-3 rounded-full shadow-2xl hover:scale-105 transition duration-300">
 
